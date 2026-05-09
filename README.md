@@ -32,7 +32,6 @@ The main goal of this project is to transform raw ride-booking data into meaning
 Through this project, I improved my skills in:
 - Dashboard Designing  
 - Data Visualization  
-- Business Intelligence  
 - Data Analytics  
 - Creating Interactive Reports in Power BI  
 

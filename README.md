@@ -1,18 +1,49 @@
-OLA Power BI Dashboard 🚖📊
-[https://github.com/salmanahmad34/ola/blob/main/Screenshot%202026-05-10%20004636.png?raw=true](https://github.com/salmanahmad34/ola/blob/main/Screenshot%202026-05-10%20004636.png?raw=true)
-An interactive Power BI Dashboard Project built using OLA ride booking data to analyze booking trends, revenue, cancellations, customer ratings, and driver performance.
+# OLA Power BI Dashboard 🚖📊
 
-Key Insights
-Total Bookings & Revenue Analysis
-Vehicle Type Performance
-Ride Cancellation Analysis
-Customer & Driver Ratings
-Ride Distance & Booking Trends
-Interactive Filters and Visualizations
-Tools & Technologies
-Power BI
-DAX
-Data Visualization
-Data Cleaning & Transformation
+![OLA Dashboard Preview](images/overview.png)
 
-This project helped me improve my skills in Business Intelligence, Data Analytics, Dashboard Design, and Data Storytelling.
+## Project Overview
+This project is an interactive **Power BI Dashboard** created using OLA ride booking data.  
+The dashboard helps analyze important business insights such as booking trends, revenue performance, ride cancellations, customer ratings, and driver ratings.
+
+The main goal of this project is to transform raw ride-booking data into meaningful visual insights using Power BI and DAX.
+
+---
+
+## Dashboard Features
+- 📌 Total Bookings Analysis  
+- 🚖 Vehicle Type Performance  
+- 💰 Revenue Insights  
+- ❌ Ride Cancellation Analysis  
+- ⭐ Customer & Driver Ratings  
+- 📈 Booking Trend Visualization  
+- 🎛 Interactive Filters & Slicers  
+
+---
+
+## Tools & Technologies Used
+- Power BI  
+- DAX  
+- Data Cleaning & Transformation  
+- Data Visualization  
+- Business Intelligence  
+
+---
+
+## Learning Outcomes
+Through this project, I improved my skills in:
+- Dashboard Designing  
+- Data Visualization  
+- Business Intelligence  
+- Data Analytics  
+- Creating Interactive Reports in Power BI  
+
+---
+
+## Project Screenshots
+### Overall Dashboard
+![Overall Dashboard](images/overview.png)
+
+---
+
+#PowerBI #DataAnalytics #BusinessIntelligence #Dashboard #DataVisualization #DAX #GitHub #OLA #AnalyticsProject

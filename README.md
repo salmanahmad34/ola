@@ -1,6 +1,7 @@
 # OLA Power BI Dashboard 🚖📊
 
-![OLA Dashboard Preview](images/overview.png)
+<img width="1324" height="742" alt="Screenshot 2026-05-10 004636" src="https://github.com/user-attachments/assets/6c448c56-7b8c-4f20-ad22-4254321a744a" />
+
 
 ## Project Overview
 This project is an interactive **Power BI Dashboard** created using OLA ride booking data.  
@@ -16,17 +17,14 @@ The main goal of this project is to transform raw ride-booking data into meaning
 - 💰 Revenue Insights  
 - ❌ Ride Cancellation Analysis  
 - ⭐ Customer & Driver Ratings  
-- 📈 Booking Trend Visualization  
 - 🎛 Interactive Filters & Slicers  
 
 ---
 
 ## Tools & Technologies Used
 - Power BI  
-- DAX  
 - Data Cleaning & Transformation  
-- Data Visualization  
-- Business Intelligence  
+- Data Visualization   
 
 ---
 
@@ -40,9 +38,7 @@ Through this project, I improved my skills in:
 
 ---
 
-## Project Screenshots
-### Overall Dashboard
-![Overall Dashboard](images/overview.png)
+
 
 ---
 

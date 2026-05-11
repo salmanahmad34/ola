@@ -1,0 +1,109 @@
+create database ola;
+USE ola;
+
+# Retrieve all successful bookings:
+create view successful_booking as
+select * from bookings
+where Booking_status = 'Success';
+
+#ANSWER1
+select * from successful_booking;
+
+
+
+
+# Find the average ride distance for each vehicle type:
+create view ride_distance_for_each_vehicle as
+select Vehicle_Type, AVG(Ride_Distance)
+as avg_distance from bookings
+group by Vehicle_Type;
+
+#ANSWER2
+select * from ride_distance_for_each_vehicle;
+
+
+
+
+
+# Get the total number of cancelled rides by customers:
+create view total_number_of_cancelled_rides_by_customers as
+select count(*) from bookings
+where Booking_status = 'Canceled by Customer';
+
+#ANSWER3
+select * from total_number_of_cancelled_rides_by_customers;
+
+
+
+# List the top 5 customers who booked the highest number of rides
+create view top_5_customers_who_booked_the_highest_number_of_rides as
+select Customer_ID, COUNT(Booking_ID) as total_rides 
+from bookings
+group by Customer_ID
+order by total_rides DESC limit 5;
+
+#ANSWER4
+select * from top_5_customers_who_booked_the_highest_number_of_rides;
+
+
+# Get the number of rides cancelled by drivers due to personal and car-related issues:
+create view rides_cancelled_by_drivers as
+select count(*) from bookings
+where Canceled_Rides_by_Driver = 'Personal & Car related issue';
+
+#ANSWER5
+select * from rides_cancelled_by_drivers;
+
+
+
+# Find the maximum and minimum driver ratings for Prime Sedan bookings:
+create view maximum_and_minimum_driver_ratings as
+select max(Driver_Ratings) as max_rating,
+min(Driver_Ratings) as min_rating
+from bookings where Vehicle_Type ='Prime Sedan';
+
+#ANSWER6
+select * from maximum_and_minimum_driver_ratings;
+
+
+
+# Retrieve all rides where payment was made using UPI:
+create view upi_payment as
+select * from bookings 
+where Payment_Method = 'upi';
+
+#ANSWER7
+select * from upi_payment;
+
+
+
+# Find the average customer rating per vehicle type:
+create view average_customer_rating as
+SELECT Vehicle_Type, 
+avg(Customer_Rating) as average_rating
+from bookings
+group by Vehicle_Type;
+
+#ANSWER8
+select * from average_customer_rating;
+
+
+
+# Calculate the total booking value of rides completed successfully:
+CREATE VIEW total_successful_value as
+select SUM(Booking_Value) as total_successful_value
+from bookings
+where Booking_Status = 'Success';
+
+#ANSWER9
+select * from total_successful_value;
+
+
+
+# List all incomplete rides along with the reason:
+create view incomplete_rides as
+select Booking_ID, Incomplete_Rides_Reason
+from bookings where Incomplete_rides = 'Yes';
+
+#ANSWER10
+select * from incomplete_rides;
